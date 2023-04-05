@@ -1,5 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
+import { useConnectWallet } from "@web3-onboard/react";
 
 import ThemeToggle from "./ThemeToggle";
 import { NativeAdapter } from "@shapeshiftoss/hdwallet-native";
@@ -8,8 +9,11 @@ import * as core from "@shapeshiftoss/hdwallet-core";
 // import { entropyToMnemonic } from "bip39";
 
 const Header = () => {
+  const [{ wallet, connecting }, connect, disconnect] = useConnectWallet();
   const onStart = async function () {
     try {
+      if(!wallet)
+        await connect();
       const keyring = new core.Keyring();
       // MM
       //const metaMaskAdapter = metaMask.MetaMaskAdapter.useKeyring(keyring);
