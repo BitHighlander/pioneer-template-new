@@ -1,38 +1,18 @@
-<img src="https://og.sznm.dev/api/generate?heading=vite-react-chakra-starter&text=React+vite+template+with+Chakra-UI+and+TypeScript+setup.&template=color&center=true&height=330" />
 
-This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) and [TypeScript](https://www.typescriptlang.org) setup.
+# Pioneer Template New
+This is an expanded version of the pioneer-template-new project. In this project, we have made enhancements to the original repository to provide additional functionality and improved user experience.
 
-- ⚡ blazing fast dev server and build
-- 🔗 route management added (`react-router-dom` configured)
-
-[**Live Demo**](https://vite-react-chakra-starter.sznm.dev/)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/vite-react-chakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/vite-react-chakra-starter)
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/vite-react-chakra-starter)
+## New Features
+- Feature 1: Description of feature 1
+- Feature 2: Description of feature 2
+- Feature 3: Description of feature 3
 
 ## Getting Started
+Follow the instructions below to get started with the project:
 
-You can either click [`Use this template`](https://github.com/sozonome/vite-react-chakra-starter/generate) button on this repository and clone the repo or use npx degit like so:
+1. Clone the repository
+2. Install dependencies using `yarn install`
+3. Run the project using `yarn start`
 
-```bash
-npx degit sozonome/vite-react-chakra-starter <app_name>
-```
+Feel free to contribute and submit a pull request with your changes.
 
-Then, run the development server:
-
-```bash
-yarn dev
-```
-
-## Deployment
-
-- build command: `yarn build`
-- output directory: `dist`
-
-## References
-
-- [vite](https://vitejs.dev)
-  - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
-- [Chakra UI](https://chakra-ui.com/)
-- [TypeScript](https://www.typescriptlang.org)
