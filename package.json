@@ -28,6 +28,7 @@
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@fontsource/plus-jakarta-sans": "^4.5.11",
     "@pioneer-sdk/sdk": "^1.1.73",
+    "@types/uuid": "^9.0.1",
     "@web3-onboard/injected-wallets": "latest",
     "@web3-onboard/react": "^2.5.1",
     "@web3-onboard/walletconnect": "^2.2.2",
