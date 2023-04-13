@@ -25,7 +25,7 @@
 // import { KeepKeySdk } from "@keepkey/keepkey-sdk";
 // import { SDK } from "@pioneer-sdk/sdk";
 // import * as core from "@shapeshiftoss/hdwallet-core";
-import { KkRestAdapter } from "@keepkey/hdwallet-keepkey-rest";
+// import { KkRestAdapter } from "@keepkey/hdwallet-keepkey-rest";
 import { KeepKeySdk } from "@keepkey/keepkey-sdk";
 import { SDK } from "@pioneer-sdk/sdk";
 import * as core from "@shapeshiftoss/hdwallet-core";
